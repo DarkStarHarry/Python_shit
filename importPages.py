@@ -2,7 +2,7 @@ import re
 import sys
 import urlparse
 import urllib
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 class MyOpener(urllib.FancyURLopener):
     version ='Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15'
 
